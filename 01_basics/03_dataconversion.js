@@ -19,3 +19,10 @@ console.log(convertedBoolean);
 // null => false
 // undefined => false
 
+// **************Operations*****************
+
+let str1 = "hello";
+let str2 = " Akshat";
+let str3 = str1 + str2;
+console.log(str3);
+
