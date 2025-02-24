@@ -23,3 +23,13 @@ console.log(Object.values(user));
 console.log(Object.entries(user));
 
 console.log(user.hasOwnProperty('email'));
+
+const course = {
+    courseName : "JS Tutorial",
+    price : "999",
+    courseDuration : "10 hours"
+}
+
+const {courseDuration : timeTotal} = course;
+
+console.log(timeTotal);
